@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Laura Bootstrap Template - Index</title>
+  <title>Athira</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="https://media.licdn.com/dms/image/D5635AQHCkNkMWLZmkg/profile-framedphoto-shrink_400_400/0/1699531898477?e=1721242800&v=beta&t=so0ZT4cGwNVgiqoXedzT8HsC4y3Fo4Kjlq989cYNqCk" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -335,7 +335,7 @@
                     
               </div>
               <div class="col-md-4">
-                <a href="https://github.com/Athirark100/flipkartclone.git">
+                <a href="https://athirark100.github.io/flipkartclone/">
                   <div class="card text-center p-3" >
                       <img src="https://tse2.mm.bing.net/th?id=OIP.rgw8nYby213hWQfYYVHJMQHaEK&pid=Api&P=0&h=180" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -469,7 +469,7 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="cod1.jpeg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>App 1</h4>
               <p>App</p>
@@ -700,17 +700,17 @@
             <form action=""  id="submit-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required minlength="7">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
-              <div class="form-group mt-3">
+              <!-- <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
+              </div> -->
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required minlength="20" maxlength="100"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -767,6 +767,7 @@
                 window.location.reload()
                 //window.location.href="https://google.com"
             },
+
             error:function (err){
                 alert("Something Error")
 
@@ -774,6 +775,7 @@
         })
     })
 </script>
+<script src="script.js"></script>
 <!-- end of form submition -->
 
   <!-- Vendor JS Files -->
